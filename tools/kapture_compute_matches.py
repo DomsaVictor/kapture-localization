@@ -94,8 +94,12 @@ def compute_matches_from_loaded_data(input_path: str,
     assert descriptors_type in kdata.descriptors
     keypoints_type = kdata.descriptors[descriptors_type].keypoints_type
     # assert kdata.descriptors[descriptors_type].metric_type == "L2"
+    matcher_type = kdata.descriptors[descriptors_type].metric_type
+    print(f'using matcher {matcher_type}')
 
-    matcher = MatchPairNnTorch(use_cuda=torch.cuda.is_available())
+
+    raise(Exception('stop here'))
+    matcher = MatchPairNnTorch(use_cuda=torch.cuda.is_available(), matcher=matcher_type)
     new_matches = kapture.Matches()
 
     logger.info('compute_matches. entering main loop...')
