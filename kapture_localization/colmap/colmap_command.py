@@ -24,7 +24,8 @@ CONFIGS = [
     # config 1
     ['--Mapper.ba_refine_focal_length', '0',
      '--Mapper.ba_refine_principal_point', '0',
-     '--Mapper.ba_refine_extra_params', '0'],
+     '--Mapper.ba_refine_extra_params', '0',
+     '--Mapper.max_extra_param', '99999',],
     # config 2
     ['--Mapper.ba_refine_focal_length', '0',
      '--Mapper.ba_refine_principal_point', '0',
