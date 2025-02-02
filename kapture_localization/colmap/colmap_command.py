@@ -36,7 +36,7 @@ CONFIGS = [
      '--Mapper.abs_pose_min_inlier_ratio', '0.05',
      '--Mapper.ba_local_max_num_iterations', '50',
      '--Mapper.abs_pose_max_error', '20',
-     '--Mapper.filter_max_reproj_error', '12'
+     '--Mapper.filter_max_reproj_error', '12',
      '--Mapper.max_extra_param', '99999',],
     # config 3
     ['--Mapper.ba_refine_focal_length', '1',
@@ -48,7 +48,7 @@ CONFIGS = [
      '--Mapper.abs_pose_min_inlier_ratio', '0.05',
      '--Mapper.ba_local_max_num_iterations', '50',
      '--Mapper.abs_pose_max_error', '20',
-     '--Mapper.filter_max_reproj_error', '12'
+     '--Mapper.filter_max_reproj_error', '12',
      '--Mapper.max_extra_param', '99999',]
 ]
 
